@@ -4,31 +4,108 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>HTML new design</title>
+
+	<style type="text/css">
+		.hl, h1{
+			display: inline-block;
+			background-color: purple;
+			color: brown;
+			font-size: 20px;
+			width: 200px;
+			text-align: center;
+		}
+		h2{
+			color: violet;
+		}
+		div{
+			font-family: cursive;
+		}
+		span{
+			font-family: cursive;
+		}
+		.arb{
+			font-family: monospace;
+		}
+		#name{
+			font-family: serif;
+			color: pink;
+		}
+		div.big{
+			color: purple;
+		}
+		article > h6{
+			background-color: burlywood;
+			text-align: center;
+		}
+		article h4{
+			color: burlywood;
+		}
+		#hm{
+			height: 100px;
+			width: 100px;
+			color: darkred;
+			background-color: yellowgreen;
+			text-align: center;
+		}
+		section li{
+			list-style: none;
+		}
+		a:link, a:visited
+		{
+
+			text-decoration: none;
+			background-color: dimgrey;
+			border: 1px solid blue;
+			color: skyblue;
+			display: block;
+			width: 200px;
+			text-align: center;
+			margin-bottom: 1px;
+		}
+		a:hover, a:active {
+			background-color: red;
+			color: purple;
+		}
+		section li:nth-child(3){
+			font-size: 24px;
+		}
+
+
+
+	</style>
+
+
+
 </head>
 <body>
-	<h1>Some Examples of Block and Inline Elements</h1>
+	<h1 class="hl">Some Examples of Block and Inline Elements</h1>
 	<div>*** DIV 1: Some content here *** </div>
-	<div>*** DIV 2: Following right after Div 1 ***</div>
+	<div class="arb">*** DIV 2: Following right after Div 1 ***</div>
 	<span>*** SPAN 1: Folllowing after Div 2 ***</span>
-	<div>*** DIV 3: Following Span 1 ***</div>
+	<div class="big">*** DIV 3: Following Span 1 ***</div>
 	<span>*** SPAN 2: Following DIV 3 ***</span> <a href="...." > Go to </a>
 	<h2>Hello</h2>
-	<h3>How</h3>
-	<h4>Are</h4>
+	<h3 id="name">How</h3>
+	<article>
+		<h4>Are</h4>
+	</article>
 	<h5>You</h5>
-	<h6>?</h6>
+	<article>
+		<h6>?</h6>		
+	</article>
+	
 
 	<header>Complete Analysis of <nav>Go to Page</nav> Electric Cars</header>
 
-	<footer>End here</footer>
+	<footer id="hm">End here</footer>
 	<section>
 		List 1
 
 		<ul>
-			<li>Milk</li>
-			<li>Cookies</li>
-			<li>Chocolate</li>
-			<li>Butter</li>
+			<li><a href=""> Milk</a></li>
+			<li><a href=""> Cookies</a></li>
+			<li><a href=""> Chocolate</a></li>
+			<li><a href="">  Butter</a></li>
 			<ul>
 				<li>
 					Sugar Free
