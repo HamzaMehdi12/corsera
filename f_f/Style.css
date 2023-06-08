@@ -1,4 +1,16 @@
 body{
 	background-color: gray;
-	font-size: 100px;
+	font-size: 130%;
+}
+.big{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0000ff;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: right;
+}
+#hm{
+	font-size: 1.25em;
 }
