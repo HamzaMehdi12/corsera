@@ -1,3 +1,23 @@
+@media (min-width: 1200px){
+	#hm{
+		width: 80%;
+	}
+	#context{
+		width: 150px;
+		height: 150px;
+	}
+}
+@media (min-width: 798px) and (max-width: 1199px)
+{
+	#hm{
+		width: 40%;
+	}
+	#context{
+		width: 100px;
+		height: 100px;
+	}
+}
+
 body{
 	background-color: gray;
 	font-size: 130%;
