@@ -1,6 +1,8 @@
 body{
 	background-color: gray;
 	font-size: 130%;
+	margin: 0px;
+	padding: 0px;
 }
 .big{
 	font-family: Arial, Helvetica, sans-serif;
@@ -13,4 +15,26 @@ body{
 }
 #hm{
 	font-size: 1.25em;
+	height: 900px;
+	width: 900px;
+	color: darkred;
+	text-align: center;
+	background-color: goldenrod;
+	background-image: url('https://wallsdesk.com/wp-content/uploads/2016/11/Google-Photos.jpg') no-repeat left center;
+}
+#box{
+	background-color: blue;
+	padding: 10px;
+	border: 3px solid greenyellow;
+	margin: 10px;
+	width: 350px;
+	height: 70px;
+	overflow: auto;
+}
+#context{
+	background-color: green;
+}
+
+* {
+	box-sizing: border-box;
 }
